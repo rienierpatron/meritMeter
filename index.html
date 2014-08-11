@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="meritMeter.css">
+        <title>Document</title>
+    </head>
+    <body>
+        <div id="meter"></div>
+        <br/>
+        <div id="meter2"></div>
+
+    </body>
+    <script src="jquery-1.11.1.min.js"></script>
+    <script src="meritMeter.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('#meter').meritMeter({
+                'value':10,
+                'url':'#',
+                'label' :   'Give Rating'
+            });
+        });
+    </script>
+</html>

@@ -1,0 +1,129 @@
+.meritMeter{
+	width:100%;
+	height:20px;
+	background-color:#D5D5D5;
+	margin-bottom:5px;
+}
+.meritViewer{
+	width:100%;
+	height:20px;
+	background-color:#D5D5D5;
+	margin-bottom:5px;
+}
+
+.showMerit{
+	width:100%;
+	margin-bottom:2px;
+}
+
+.meritForm{
+	display:none;
+	margin-top:10px;
+}
+
+.meritForm2{
+	margin-top:10px;
+}
+
+.meritGiven, .meritGiven2{
+	width:100%;
+	margin-left:0px;
+	background-color: #e74c3c;
+	-webkit-appearance: none;
+	height: 5px;
+	border-radius: 5px;
+	outline: 0;
+
+}
+
+.meritGiven::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	background-color: white;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	border: 3px solid #e74c3c;
+	cursor: pointer;
+	transition: .3s ease-in-out;
+}​
+
+.meritGiven::-webkit-slider-thumb:hover {
+	background-color: white;
+	border: 2px solid #e74c3c;
+}
+
+.meritGiven::-webkit-slider-thumb:active {
+	transform: scale(1.3);
+}
+
+.meritGiven2::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	background-color: white;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	border: 3px solid #e74c3c;
+	cursor: pointer;
+	transition: .3s ease-in-out;
+}​
+
+.meritGiven2::-webkit-slider-thumb:hover {
+	background-color: white;
+	border: 2px solid #e74c3c;
+}
+
+.meritGiven2::-webkit-slider-thumb:active {
+	transform: scale(1.3);
+}
+
+.meritBtn{
+	width:100%;
+	/* position:absolute; */
+	margin-top:23px !important;
+}
+
+.cancelMeritBtn{
+	width:100%;
+	/* position:absolute; */
+	margin-top:5px !important;
+}
+
+.meritBox{
+	width:10%;
+	height:20px;
+	float: left;
+	position:relative;
+}
+
+.addition{
+	height:20px;
+	float:left;
+}
+
+.scoreShow{
+	margin-top:23px !important;
+	width:100%;
+	text-align:center;
+	font-size:5em;
+	font-weight:bold;
+	margin-bottom:5px;
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.meritMeter, .meritViewer, .showMerit, .meritGiven, .meritBtn, .cancelMeritBtn, .scoreShow{
+		width:50%;
+	}
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+	.meritMeter, .meritViewer, .showMerit, .meritGiven, .meritBtn, .cancelMeritBtn, .scoreShow{
+		width:90%;
+	}
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+	
+}
